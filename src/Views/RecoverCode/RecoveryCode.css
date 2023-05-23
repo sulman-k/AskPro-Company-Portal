@@ -1,0 +1,69 @@
+.required:after {
+  content: " *";
+  color: red;
+  font-size: x-large;
+}
+
+.bgColorLogin {
+  background-color: #100f17;
+}
+
+body {
+  background-color: #100f17;
+}
+
+.loginComponent {
+  overflow: hidden;
+  overflow-y: hidden;
+}
+
+.adminRecover {
+  font-size: 28px;
+  color: white;
+}
+
+.signIn {
+  background-color: #171d2a;
+}
+
+.form-control-lg {
+  border-radius: 44px;
+}
+
+.Helvetica {
+  font-family: Helvetica;
+}
+
+.forgotEmail {
+  padding: 5px;
+  border-radius: 12px;
+  background-color: #171d2a;
+  border: 2px solid gray;
+  color: white;
+}
+
+.box1 {
+  border: 3px solid #427fb9;
+  border-radius: 7px;
+  height: 75px;
+  margin-right: 15px;
+  background-color: #171d2a;
+  color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.resendCodeColor {
+  color: #ffad10;
+}
+.HelveticaRecovery {
+  font-family: Helvetica;
+}
+
+.recoverForm {
+  margin-top: 8%;
+}

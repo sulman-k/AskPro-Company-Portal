@@ -1,0 +1,183 @@
+.cssforcategoryheading {
+  font-family: "Myanmar Text";
+  font-weight: bold;
+  font-size: 36;
+}
+
+.cssforcommercial {
+  color: #0a7feb;
+  font-weight: 16;
+  font-family: "Source Sans Pro";
+}
+
+.cssforEnterCategoryStatementQuestion {
+  color: #0a7feb;
+  font-size: 20;
+  font-weight: bold;
+  font-family: "Myanmar Text";
+}
+
+.cssForCard {
+  border-radius: 10px;
+}
+
+.cssforwritethediscription {
+  font-family: "Myanmar Text";
+  font-size: xx-small;
+  display: contents;
+}
+
+.cssforcardradio {
+  padding: 2%;
+  border: 2px solid lightblue;
+  border-radius: 10px;
+}
+
+.cssforverticalline {
+  margin-left: -13px;
+}
+
+.cssButtonLookLikeLink {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  /* text-decoration: underline; */
+  cursor: pointer;
+}
+
+.cssForCategoryButtons {
+  text-align: left;
+  /* overflow: scroll; */
+}
+
+.editButton {
+  border: none;
+  background-color: inherit;
+  /* padding: 14px 28px; */
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.questionAlign {
+  display: flex;
+  border: 2px solid gray;
+}
+
+.incomingBarCategory {
+  background-color: #d9e5f1;
+  padding: 10px;
+  margin: 4px;
+  border-top-left-radius: 10px;
+  width: 100%;
+  border-top-right-radius: 10px;
+}
+
+.cloneButton {
+  height: 48px;
+  width: 15%;
+  font-size: small;
+  display: flex;
+
+  align-self: center;
+  transform: translate3d(-3px, 0px, 10px);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.changeCat {
+  font-family: SourceSansPro;
+  font-size: 15px;
+  color: #0a7feb;
+}
+
+pre {
+  display: block;
+  font-size: 0.875em;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  overflow: initial;
+}
+
+/* Remove default bullets */
+ul,
+#myUL {
+  list-style-type: none;
+}
+
+/* Remove margins and padding from the parent ul */
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the caret/arrow */
+.caret {
+  cursor: pointer;
+  user-select: none;
+  /* Prevent text selection */
+}
+
+/* Create the caret/arrow with a unicode, and style it */
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+.caret-down::before {
+  transform: rotate(90deg);
+}
+
+/* Hide the nested list */
+.nested {
+  display: none;
+}
+
+/* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+.active {
+  display: block;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.AddAndEditButtonForCommercialClick {
+  padding: 9%;
+}
+
+.newStyleForButtonLink {
+  width: 300px;
+  /* min-height: 300px;
+  max-height: 500px; */
+  display: flex;
+  overflow-x: auto;
+}
+
+
+.buttonForClone {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+
+.wraptheCommercialClick {
+  word-break: break-all;
+
+}

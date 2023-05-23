@@ -1,0 +1,32 @@
+.searchBartool {
+  top: 10px;
+  right: 1%;
+  display: flex;
+
+  /* justify-content: space-between;  */
+}
+
+.inputIcon {
+  background-image: url("/src/Assets/Images/searchIcon.jpg");
+  background-repeat: no-repeat;
+  background-position: 1%;
+  background-position-x: 87.5%;
+  background-size: 22px;
+}
+
+/* input[type="text"]::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+input[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+} */

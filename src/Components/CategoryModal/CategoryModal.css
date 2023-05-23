@@ -1,0 +1,77 @@
+.incomingBarCategoryModal {
+  margin-top: 0;
+  background-color: #d9e5f1;
+  padding: 8px;
+  margin: 4px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /* border: 2px solid lightblue; */
+}
+.modalCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.cardBorder {
+  border: 2px solid lightblue;
+}
+
+.borderColor {
+  border: 2px solid lightblue;
+  border-radius: 15px;
+}
+
+.modalLabel {
+  float: left;
+  font-weight: bold;
+}
+
+.modalInput {
+  border-radius: 10px;
+}
+
+.textData {
+  text-align: initial;
+}
+
+.uploadModal {
+  font-size: 9px;
+  font-weight: bold;
+}
+
+.uploadIcon {
+  display: flex;
+  justify-content: center;
+}
+.textAlign {
+  display: flex;
+  justify-content: center;
+}
+.textAlignInner {
+  text-align: left;
+}
+
+.cssforverticalline {
+  margin-left: -13px;
+}
+
+.instanceAlign {
+  margin-left: 20%;
+}
+.addItemColor {
+  border: 2px solid darkslategray;
+  color: #427fb9;
+}
+.errorSpan {
+  float: left;
+  color: red;
+}
+
+.borderPadding {
+  padding: 5px 5px 10px 5px;
+}
+.toastClass{
+  display: flex;
+  justify-content: end;
+  margin-right: 1%;
+}

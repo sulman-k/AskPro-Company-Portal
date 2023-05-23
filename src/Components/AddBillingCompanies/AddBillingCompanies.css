@@ -1,0 +1,68 @@
+.addBillingCompanycss {
+  font-family: Myanmar Text;
+  font-weight: bold;
+  font-size: 30;
+}
+
+.fileds_input_css {
+  font-family: Myanmar Text;
+  font-weight: bold;
+  font-size: 24;
+  padding-top: 0.5%;
+}
+
+.allselectcss {
+  margin-top: -0.7%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.allselectbuttoncss {
+  background-color: #ffffff;
+  border: "solid black";
+  color: black;
+  height: 30px;
+  width: 100px;
+  border-radius: 30px;
+}
+
+.allselectbuttoncssinner {
+  background-color: #ffffff;
+  border: "solid black";
+  color: black;
+  height: 30px;
+  width: 100px;
+  border-radius: 30px;
+}
+.sameLinesForButtons {
+  display: flex;
+}
+.tagsFieldAlign {
+  margin-left: 1px;
+}
+
+.uploadbutton {
+  background-repeat: no-repeat;
+  background-position: 1%;
+  background-position-x: 96%;
+  background-size: 22px;
+  /* margin-right: -73%; */
+  margin-top: 1%;
+  margin-bottom: 1%;
+  /* font-weight: 200; */
+  width: 10%;
+  /* font-size: larger; */
+  position: relative;
+  z-index: 1;
+}
+
+.passwordError {
+  display: flex;
+  color: red;
+  font-style: italic;
+}
+.multipleLoader {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -70px;
+}

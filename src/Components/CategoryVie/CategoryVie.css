@@ -1,0 +1,13 @@
+.Questionare {
+  color: black;
+  text-decoration: none;
+}
+
+.categoryAlign {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.kpiCVCard{
+    border-radius: 10px;
+}

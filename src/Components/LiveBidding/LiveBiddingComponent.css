@@ -1,0 +1,35 @@
+.floatRight {
+  float: right;
+}
+
+.liveHeaders {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.liveBody {
+  font-family: Montserrat;
+  color: #9b9b9b;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.btnLive {
+  border: 1px solid gray;
+  border-radius: 20px;
+  color: red;
+  font-weight: bold;
+}
+
+td {
+  display: "flex";
+  justify-content: "center";
+}
+
+.verticalLine {
+  border: 1px solid;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
